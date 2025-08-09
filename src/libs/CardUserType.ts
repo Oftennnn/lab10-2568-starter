@@ -5,3 +5,10 @@ interface CardUserProps{
   email :string
 };
 export type { CardUserProps };
+
+interface CardUserDetailProps{
+
+  address :string,
+  email :string
+};
+export type { CardUserDetailProps };
